@@ -1,6 +1,6 @@
-#Image Retargeting
+# Image Retargeting
 
-##Requirements
+## Requirements
 - PyMaxflow
 - opencv-python
 - numpy
