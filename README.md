@@ -7,7 +7,7 @@
 - Matplotlib
 - ffmpeg
 
-##Image Retargeting
+## Image Retargeting
 
 A BGR image is passed in the main function. The graph is constructed using the Grayscale version of the image. The weights are added according to the Forward Energy Function. Pymaxflow is used to find the vertical seam from the image. After the cut is obtained, the seam is removed from the image. We iteratively repeat this process to reduce the width one by one. To reduce the width of the image, we rotate the image and remove the seams again. and rotate it back.
 
